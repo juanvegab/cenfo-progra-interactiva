@@ -1,2 +1,2 @@
 # cenfo-progra-interactiva
-Class repo for Progra Interactiva
+Class repo for Programacion Interactiva
