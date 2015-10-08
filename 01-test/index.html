@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jquery UI - Test</title>
+	<!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> -->
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<style>
+		.box {
+			width: 600px;
+			height: 300px;
+			border: 3px solid gray;
+			overflow: hidden;
+		}
+		.inner-box {
+			border: 3px solid red;
+			width: 200px;
+			height: 200px;
+		}
+	</style>
+	<script>
+		$(function() {
+			$( ".draggable .inner-box" ).draggable();
+		});
+	</script>
+</head>
+<body>
+	<h1>Jquery UI - Test</h1>
+
+	<div class="draggable box">
+		<p class="inner-box">Este es un elemento draggable.</p>
+	</div>
+</body>
+</html>

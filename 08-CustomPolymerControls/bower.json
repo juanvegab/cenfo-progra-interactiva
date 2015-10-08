@@ -1,0 +1,28 @@
+{
+  "name": "08-CustomPolymerControls",
+  "version": "0.1.0",
+  "homepage": "https://github.com/juanvegab/cenfo-progra-interactiva/08-CustomPolymerControls",
+  "authors": [
+    "Juan Carlos Vega Abarca <juanvegab23@gmail.com>"
+  ],
+  "description": "Demo for polymer custom components",
+  "main": "app.js",
+  "moduleType": [],
+  "keywords": [
+    "polymer",
+    "demo",
+    "practice"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/Polymer#^1.1.0"
+  }
+}
