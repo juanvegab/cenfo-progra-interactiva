@@ -1,0 +1,40 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="bower_components/firebase/firebase.js"></script>
+<script type="text/javascript" src="bower_components/angularfire/dist/angularfire.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="controllers.js"></script>
+<script type="text/javascript" src="factories.js"></script>
+
+<dom-module ng-app="ChatUp">
+	<div class="container" ng-controller="ChatController">
+		<div class="row">
+			<div class="col-sm-12">
+				<ul class="messagesList list-unstyle">
+					<li ng-repeat="message in messages">
+						<p><span>{{message.name}} <small>says</small>:</span> {{message.text}} <button ng-click="removeMessage(message)">X</button></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<hr>
+				<form ng-submit="sendMessage()">
+					<input type="text" ng-model="messageToSend.name">
+					<input type="text" ng-model="messageToSend.text" >
+					<button class="btn btn-primary" type="submit">Enviar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		Polymer ({
+			is: 'chat-room-component'
+		});
+	</script>
+
+</dom-module>
+

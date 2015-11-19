@@ -1,0 +1,31 @@
+{
+  "name": "chat-group-juanvegab-polymer",
+  "homepage": "http://github.com/juanvegab/cenfo-progra-interactiva/examen-01/chat-group-juanvegab-polymer",
+  "authors": [
+    "Juan Carlos Vega Abarca <juanvegab23@gmail.com>"
+  ],
+  "description": "Examen 1, polymer chat group component",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "polymer",
+    "firebase",
+    "angular",
+    "chat"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0",
+    "angular": "~1.4.7",
+    "firebase": "~2.3.2",
+    "angularfire": "~1.1.3"
+  }
+}
