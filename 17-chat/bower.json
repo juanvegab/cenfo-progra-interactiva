@@ -1,0 +1,30 @@
+{
+  "name": "polymer-angular-chat",
+  "homepage": "http://github.com/juanvegab/cenfo-progra-interactiva/chat",
+  "authors": [
+    "Juan Carlos Vega Abarca <juanvegab23@gmail.com>"
+  ],
+  "description": "Chat made with Angular and Polymer, hosted on Firebase",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "angularjs",
+    "polymer",
+    "firebase"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.7",
+    "firebase": "~2.3.1",
+    "angularfire": "~1.1.3",
+    "bootstrap": "~3.3.5"
+  }
+}
